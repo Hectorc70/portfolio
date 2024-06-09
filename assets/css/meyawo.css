@@ -11145,16 +11145,17 @@ p {
   padding: 10px;
 }
 
-.service-card .body img.icon {
+.service-card .body .icon {
   margin-top: 40px;
   width: 55px;
   margin-bottom: 25px;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
+  object-fit: cover;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .service-card .body img.icon {
+  .service-card .body .icon {
     -webkit-transition: none;
     transition: none;
   }
@@ -11176,7 +11177,7 @@ p {
   }
 }
 
-.service-card:hover .body img.icon {
+.service-card:hover .body .icon {
   margin-top: 5px;
   width: 45px;
   margin-bottom: 15px;
